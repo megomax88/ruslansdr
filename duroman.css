@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+body{
+    background-color: #FAC1A5;
+    font-size: 26px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.hr-circle {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-width: 0 0 5px;
+	border-style: solid;
+	border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+	background-position: 50%;
+	box-sizing: border-box;
+    color: #000;
+}
+.list{
+    padding: 0 20px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited{
+    color:rgb(49, 47, 47);
+}
+.avaDuroman{
+        width: 200px;
+        border-radius: 20%;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.534);
+    }
+.logo{
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .logo{
+        text-align: center;
+        display: block;
+    }
+}
+
+.ava_text{
+    margin: 20px;
+}
+.ava_text h1{
+    margin-bottom: 10px;
+}
+    .logo p {
+    color:#161613e1;
+    font-style: oblique;
+    font-size: 18px;
+}
+.allshit{
+    margin:auto;
+    max-width: 74%;
+}
+.creativity{
+    max-width: 50%
+}
+table{
+    /* border-style:dashed; */
+    width: 75%;
+    border-collapse: collapse;
+    border-color: orange;
+    border-width: 2px;
+    
+}
+table td{
+    padding-bottom: 7px;
+    text-align: center;
+    
+}
+h2{
+    margin: 25px;
+}
+.linkPoint label{
+    display:flex;
+}
+.linkPoint input{
+    width: 75%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    color: black;
+    
+    
+    border-radius: 15px;
+    padding: 10px 0px 15px;
+    outline-color: rebeccapurple;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #FAC1A5;
+}
+.linkPoint textarea{
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    color: black;
+    
+    
+    border-radius: 15px;
+    padding: 10px 0px 15px;
+    outline-color: rebeccapurple;
+    font-family: inherit;
+    font-size: 20px;
+    background-color:#FAC1A5;
+}
+.btn{
+    width: 15%;
+    background: orange;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight:600;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid rebeccapurple;
+}
+.gibloInput{
+    width: 15%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    color: black;
+
+    border-radius: 15px;
+    padding: 10px 0px 15px;
+    outline-color: rebeccapurple;
+    /* font-family: inherit;
+    font-size: 100px; */
+    background-color:#FAC1A5;
+}
+.gibloPage label{
+    display: flex;
+    margin: 10px;
+}
+.gibloPage{
+    max-width: 73%;
+    margin: auto;
+}
+.ssMusicAll{
+    margin:auto;
+    max-width: 75%;
+}
+.ssMusicAll label{
+    border-bottom: 10px;
+    margin: 15px;
+    padding: 10px 10px 10px;
+}
+.ssRadio input{
+   background: black;
+}
